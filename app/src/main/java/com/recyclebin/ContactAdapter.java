@@ -16,12 +16,12 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.Contacts
     Context mContext;
     List<Contacts> contactsList;
     //Constructor, to receive data from the activity
-    public ContactAdapter(Context mContext,
+    public ContactAdapter (Context mContext,
                           List<Contacts> contactsList){
         this.mContext = mContext;
         this.contactsList= contactsList;
     }
-    
+
     @NonNull
     @Override
     public ContactsViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i){
