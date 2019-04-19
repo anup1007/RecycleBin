@@ -31,4 +31,5 @@ public class DetailsActivity extends AppCompatActivity {
             tve.setText(bundle.getString("email"));
        }
     }
+
 }
