@@ -18,6 +18,7 @@
         android:layout_toEndOf="@+id/imgProfile"
         android:hint="Contact Name"
         android:textSize="15sp"
+
         />
 
 
