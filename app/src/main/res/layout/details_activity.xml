@@ -14,9 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvName"
-        android:layout_marginStart="20dp"
+
         android:layout_marginTop="20dp"
-        android:layout_toEndOf="@+id/imgProfile"
+        android:layout_below="@+id/imgProfile"
         android:hint="Contact Name"
         android:textSize="20sp"
         />
@@ -25,11 +25,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvPhone"
-        android:layout_below="@+id/tvName"
-        android:layout_marginStart="20dp"
+
         android:layout_marginTop="20dp"
-        android:layout_toEndOf="@+id/imgProfile"
+        android:layout_below="@+id/tvName"
         android:hint="Phone no"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvaddress"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvPhone"
+        android:hint="Address"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvemail"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvaddress"
+        android:hint="Email Address"
         android:textSize="20sp"
         />
 

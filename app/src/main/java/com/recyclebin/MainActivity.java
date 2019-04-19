@@ -21,17 +21,17 @@ public class MainActivity extends AppCompatActivity {
 
         //Create a list of Contact
         List<Contacts> contactsList = new ArrayList<>();
-        contactsList.add(new Contacts("saugat Malla","9860345213",R.drawable.saugat));
-        contactsList.add(new Contacts("Bhuwan","9860345217",R.drawable.bhuwan));
-        contactsList.add(new Contacts("Rajesh","9860345567",R.drawable.rajesh));
-        contactsList.add(new Contacts("Dahayang","98012342123",R.drawable.dahayang));
-        contactsList.add(new Contacts("Dwayne","98012342112",R.drawable.dwayne));
-        contactsList.add(new Contacts("Johnny","9860321987",R.drawable.johnny));
-        contactsList.add(new Contacts("Grant","9868761987",R.drawable.grant));
-        contactsList.add(new Contacts("Robert","9841433451",R.drawable.robert));
-        contactsList.add(new Contacts("stephen","9860344871",R.drawable.stephen));
-        contactsList.add(new Contacts("Jacky","9841561234",R.drawable.jacky));
-        contactsList.add(new Contacts("Anmol KC","9845123456",R.drawable.anmol));
+        contactsList.add(new Contacts("saugat Malla","9860345213","bakhu","ahsajdha@gmail.com",R.drawable.saugat));
+        contactsList.add(new Contacts("Bhuwan","9860345217","bakhu","ahsajdha@gmail.com",R.drawable.bhuwan));
+        contactsList.add(new Contacts("Rajesh","9860345567","bakhu","ahsajdha@gmail.com",R.drawable.rajesh));
+        contactsList.add(new Contacts("Dahayang","98012342123","bakhu","ahsajdha@gmail.com",R.drawable.dahayang));
+        contactsList.add(new Contacts("Dwayne","98012342112","bakhu","ahsajdha@gmail.com",R.drawable.dwayne));
+        contactsList.add(new Contacts("Johnny","9860321987","bakhu","ahsajdha@gmail.com",R.drawable.johnny));
+        contactsList.add(new Contacts("Grant","9868761987","bakhu","ahsajdha@gmail.com",R.drawable.grant));
+        contactsList.add(new Contacts("Robert","9841433451","bakhu","ahsajdha@gmail.com",R.drawable.robert));
+        contactsList.add(new Contacts("stephen","9860344871","bakhu","ahsajdha@gmail.com",R.drawable.stephen));
+        contactsList.add(new Contacts("Jacky","9841561234","bakhu","ahsajdha@gmail.com",R.drawable.jacky));
+        contactsList.add(new Contacts("Anmol KC","9845123456","bakhu","ahsajdha@gmail.com",R.drawable.anmol));
 
         //pass this list to adapter
 

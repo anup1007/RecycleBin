@@ -42,6 +42,8 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.Contacts
         contactsViewHolder.tvName.setText(contacts.getName());
         contactsViewHolder.tvPhone.setText(contacts.getPhoneNo());
 
+
+
         contactsViewHolder.imgProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,6 +51,8 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.Contacts
                 intent.putExtra("image",contacts.getImageId());
                 intent.putExtra("name",contacts.getName());
                 intent.putExtra("phone",contacts.getPhoneNo());
+                intent.putExtra("address",contacts.getAddress());
+                intent.putExtra("email",contacts.getEmail());
 
                 mContext.startActivity(intent);
 
@@ -71,6 +75,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.Contacts
             imgProfile = itemView.findViewById(R.id.imgProfile);
             tvName = itemView.findViewById(R.id.tvName);
             tvPhone = itemView.findViewById(R.id.tvPhone);
+
         }
 
 
