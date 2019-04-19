@@ -24,11 +24,19 @@ public class MainActivity extends AppCompatActivity {
         contactsList.add(new Contacts("saugat Malla","9860345213",R.drawable.saugat));
         contactsList.add(new Contacts("Bhuwan","9860345217",R.drawable.bhuwan));
         contactsList.add(new Contacts("Rajesh","9860345567",R.drawable.rajesh));
-        contactsList.add(new Contacts("noavatar","no phone",R.drawable.noavatar));
+        contactsList.add(new Contacts("Dahayang","98012342123",R.drawable.dahayang));
+        contactsList.add(new Contacts("Dwayne","98012342112",R.drawable.dwayne));
+        contactsList.add(new Contacts("Johnny","9860321987",R.drawable.johnny));
+        contactsList.add(new Contacts("Grant","9868761987",R.drawable.grant));
+        contactsList.add(new Contacts("Robert","9841433451",R.drawable.robert));
+        contactsList.add(new Contacts("stephen","9860344871",R.drawable.stephen));
+        contactsList.add(new Contacts("Jacky","9841561234",R.drawable.jacky));
+        contactsList.add(new Contacts("Anmol KC","9845123456",R.drawable.anmol));
+
         //pass this list to adapter
 
         ContactAdapter contactAdapter = new ContactAdapter(this,contactsList);
         recyclerView.setAdapter(contactAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new GridLayoutManager( this, 2));
     }
 }

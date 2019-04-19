@@ -12,7 +12,7 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     protected  void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-       setContentView(R.layout.activity_main);
+       setContentView(R.layout.details_activity);
 
        cImg = findViewById(R.id.imgProfile);
        tvFullName = findViewById(R.id.tvName);
