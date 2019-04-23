@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -80,5 +81,9 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.Contacts
 
 
 
+    }
+    public void filterList(ArrayList<Contacts> filterList){
+        contactsList = filterList;
+        notifyDataSetChanged();
     }
 }
